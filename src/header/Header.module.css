@@ -1,0 +1,12 @@
+.headerContainer{
+    background-color: gray;
+}
+.header {
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

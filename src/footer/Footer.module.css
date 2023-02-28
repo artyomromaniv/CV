@@ -1,0 +1,22 @@
+.footerContainer{
+    background-color: blanchedalmond;
+}
+.footerBlock {
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: gray;
+}
+
+.socialNetworkIcons {
+    background-color: gray;
+    height: 40%;
+}
+
+.rights {
+    background-color: gray;
+}
