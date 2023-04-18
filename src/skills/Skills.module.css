@@ -1,6 +1,6 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: bisque;
+    background-color: #343a40;
 }
 .skillsContainer {
     flex-direction: column;
@@ -10,6 +10,7 @@
     background-color: cornflowerblue;
 }
 .skills {
+    margin-top: 30px;
     border: 1px solid;
     width: 100%;
     display: flex;

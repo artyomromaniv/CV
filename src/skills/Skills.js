@@ -2,12 +2,16 @@ import React from "react";
 import s from './Skills.module.css'
 import sContainer from './../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
+import {Title} from "../common/components/title/Title";
+
+
+
 
 export const Skills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>My skills</h2>
+                <Title text={"Skills"}/>
                 <div className={s.skills}>
                     <Skill title={'JS'}
                            description={'React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.'}/>

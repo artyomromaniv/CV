@@ -8,10 +8,13 @@ export const Footer = () => {
         <div className={s.footerContainer}>
             <div className={`${sContainer.container} ${s.footerBlock}`}>
                 <h3 className={s.title}>Artyom Romaniv</h3>
-                <div className={s.socialNetworkIcons}>
-                    wcdddddd
+                <div className={s.socialIcons}>
+                    <div className={s.socialIcon}></div>
+                    <div className={s.socialIcon}></div>
+                    <div className={s.socialIcon}></div>
+                    <div className={s.socialIcon}></div>
                 </div>
-                <h4 className={s.rights}>® all rights reserved</h4>
+                <span className={s.rights}>® all rights reserved</span>
             </div>
         </div>
 
