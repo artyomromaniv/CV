@@ -3,9 +3,9 @@ import s from './Skills.module.scss'
 import sContainer from './../common/styles/Container.module.css'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
-import jsImg from "../common/assets/image/jsImg.jpg";
-import reactImg from "../common/assets/image/reactImg.jpg";
-import reduxImg from "../common/assets/image/reduxImg.jpg";
+import jsImg from "../common/assets/image/jsImg.svg"
+import reactImg from "../common/assets/image/reactImg.svg"
+import reduxImg from "../common/assets/image/reduxImg.svg"
 
 
 export const Skills = () => {

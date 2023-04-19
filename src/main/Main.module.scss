@@ -1,0 +1,26 @@
+@import "./src/common/styles/sass/variables";
+@import "./src/common/styles/sass/mixins";
+
+.mainBlock {
+  min-height: 100vh;
+  background-color: #1f1f20;
+
+
+  .text {
+    width: 280px;
+    @include text($fontFamilyJosefinSans, 24px, 700, 1.2);
+    color: $textColor;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+  }
+}
+
+
