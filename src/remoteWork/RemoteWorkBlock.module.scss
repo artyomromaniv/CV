@@ -1,0 +1,41 @@
+@import "./src/common/styles/sass/variables";
+@import "./src/common/styles/sass/mixins";
+
+.remoteWorkBlockContainer {
+  background-color: #343a40;
+
+  .mainRemoteWorkBlock {
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .remoteBlockZone {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .title {
+        @include text($fontFamilyJosefinSans, 16px, 300, 1.4);
+        color: $textColor;
+        letter-spacing: 1px;
+      }
+
+      .recruitButton {
+        height: 35%;
+        @include text($fontFamilyJosefinSans, 24px, 500, 1.4);
+        color: $textColor;
+        letter-spacing: 5px;
+        background-color: $bgColor;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

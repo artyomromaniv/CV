@@ -5,7 +5,10 @@ import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/title/Title";
 import jsImg from "../common/assets/image/jsImg.svg"
 import reactImg from "../common/assets/image/reactImg.svg"
+import gitImg from "../common/assets/image/githubImg.svg"
+import restApiImg from "../common/assets/image/restApiImg.svg"
 import reduxImg from "../common/assets/image/reduxImg.svg"
+import tsImg from "../common/assets/image/tsImg.svg"
 
 
 export const Skills = () => {
@@ -20,6 +23,18 @@ export const Skills = () => {
     const redux = {
         color:'blue',
         backgroundImage: `url(${reduxImg})`
+    }
+    const ts = {
+        color:'blue',
+        backgroundImage: `url(${tsImg})`
+    }
+    const git = {
+        color:'blue',
+        backgroundImage: `url(${gitImg})`
+    }
+    const restAPI = {
+        color:'blue',
+        backgroundImage: `url(${restApiImg})`
     }
 
     return (
@@ -36,7 +51,15 @@ export const Skills = () => {
                     <Skill style={redux}
                            title={'Redux'}
                            description={'We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.'}/>
-
+                    <Skill style={ts}
+                           title={'TS'}
+                           description={'We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.'}/>
+                    <Skill style={git}
+                           title={'Git'}
+                           description={'We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.'}/>
+                    <Skill style={restAPI}
+                           title={'RestAPI'}
+                           description={'We don’t make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code.'}/>
                 </div>
             </div>
         </div>

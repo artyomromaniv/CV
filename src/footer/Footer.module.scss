@@ -1,0 +1,43 @@
+@import "./src/common/styles/sass/variables";
+@import "./src/common/styles/sass/mixins";
+
+.footerContainer {
+  background-color: #343a40;
+
+  .footerBlock {
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .socialIcons {
+      width: 250px;
+      height: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .socialIcon {
+        width: 40px;
+        height: 40px;
+        background-color: $bgColor;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+      }
+    }
+
+    .rights {
+      @include text($fontFamilyJosefinSans, 12px, 300, 1.8);
+      color: $textColor;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+
+
+
+
+
+

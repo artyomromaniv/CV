@@ -1,5 +1,5 @@
 import React from "react";
-import s from './RemoteWorkBlock.module.css';
+import s from './RemoteWorkBlock.module.scss';
 import sContainer from './../common/styles/Container.module.css'
 
 
