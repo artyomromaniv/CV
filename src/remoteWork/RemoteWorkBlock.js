@@ -1,6 +1,6 @@
 import React from "react";
 import s from './RemoteWorkBlock.module.scss';
-import sContainer from './../common/styles/Container.module.css'
+import sContainer from '../common/styles/Container.module.scss'
 
 
 export const RemoteWorkBlock = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import s from './Footer.module.scss';
-import sContainer from './../common/styles/Container.module.css'
+import sContainer from '../common/styles/Container.module.scss'
 import {Title} from "../common/components/title/Title";
 import facebookImg from "../common/assets/image/facebook.svg";
 import linkedInImg from "../common/assets/image/linkedin.svg";

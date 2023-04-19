@@ -1,13 +1,13 @@
 import React from "react";
 import s from './Main.module.scss';
-import sContainer from './../common/styles/Container.module.css'
+import sContainer from '../common/styles/Container.module.scss'
 import me from "../common/assets/image/me.jpg";
 
 
 export const Main = () => {
 
     const myPhoto = {
-        color:'blue',
+        color: 'blue',
         backgroundImage: `url(${me})`
     }
 
