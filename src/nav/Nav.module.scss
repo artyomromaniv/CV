@@ -2,13 +2,13 @@
 @import "./src/common/styles/sass/mixins";
 
 .nav {
-    border: 1px solid black;
     width: 360px;
     display: flex;
     justify-content: space-between;
     .navBtn{
-        @include text($fontFamilyJosefinSans, 14px, 200, 1.4);
+        @include text($fontFamilyJosefinSans, 18px, 500, 1.8);
         color: $textColor;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+        text-decoration: none;
     }
 }
